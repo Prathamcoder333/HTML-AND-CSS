@@ -1,5 +1,13 @@
 * {
     font-family: monospace;
+    text-align: justify;
+
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-style: wavy;
 }
 
 
@@ -8,9 +16,7 @@ h1 {
 
 }
 
-p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+
 
 body {
     background-color: #8d99ae;
@@ -25,12 +31,14 @@ body {
 
 .b {
     color: yellowgreen;
+    text-transform: uppercase;
 }
 
 .c {
     text-align: center;
 }
-.d{
+
+.d {
     border: 5px dashed greenyellow;
     border-radius: 10px;
 }
