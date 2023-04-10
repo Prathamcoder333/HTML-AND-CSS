@@ -20,12 +20,12 @@ h1 {
 
 
 body {
-    background:linear-gradient(to top left, #3ed8ff, #a8f5ff);
+    background:grey;
     font-size: 24px;
 }
 
 .a {
-    color:grey;
+    color:white
 
 
 }
