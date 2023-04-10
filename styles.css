@@ -20,18 +20,18 @@ h1 {
 
 
 body {
-    background-color: #8d99ae;
+    background:linear-gradient(to top left, #3ed8ff, #a8f5ff);
     font-size: 24px;
 }
 
 .a {
-    color: #f0f8ff;
+    color:grey;
 
 
 }
 
 .b {
-    color: yellowgreen;
+    color: white;
     text-transform: uppercase;
 }
 
