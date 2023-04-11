@@ -4,14 +4,13 @@
     list-style: circle;
 
 }
-
-a {
-    color: black;
-    text-decoration: underline;
-    text-decoration-style: wavy;
+:root{
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
 }
-
-
 h1 {
     color: rgb(32, 204, 104);
 
@@ -20,7 +19,7 @@ h1 {
 
 
 body {
-    background:grey;
+    background: #219ebc;
     font-size: 24px;
 }
 
@@ -33,6 +32,7 @@ body {
 .b {
     color: white;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .c {
@@ -42,4 +42,15 @@ body {
 .d {
     border: 5px dashed greenyellow;
     border-radius: 10px;
+}
+.secondary-button{
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: var(--primary-text-color) !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+li{
+    padding: 20px;
 }
