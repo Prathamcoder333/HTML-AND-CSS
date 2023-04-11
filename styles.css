@@ -12,19 +12,19 @@
     --padding-inline-section: 20px;
 }
 h1 {
-    color: rgb(32, 204, 104);
+    color:#14213d;
 
 }
 
 
 
 body {
-    background: #219ebc;
+    background: #A7C957;
     font-size: 24px;
 }
 
 .a {
-    color:white;
+    color: #112A46;
     padding: 30px;
 
 }
