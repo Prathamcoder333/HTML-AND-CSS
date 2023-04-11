@@ -24,8 +24,8 @@ body {
 }
 
 .a {
-    color:white
-
+    color:white;
+    padding: 30px;
 
 }
 
@@ -53,4 +53,13 @@ body {
 }
 li{
     padding: 20px;
+}
+.sub-footer{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+.subfooter-container{
+    justify-content: center;
+    gap: 30px;
+    
 }
